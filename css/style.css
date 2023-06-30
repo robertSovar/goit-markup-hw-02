@@ -1,0 +1,156 @@
+:root {
+  --webstudio-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
+  --button-links-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a:link,
+ul a:visited,
+ul a:hover,
+ul a:active {
+  text-decoration: none;
+}
+
+.webstudio-icon a:link,
+.webstudio-icon a:visited,
+.webstudio-icon a:hover,
+.webstudio-icon a:active {
+  font-family: var(--webstudio-font-family);
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.studio-text {
+  color: black;
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  line-break: normal;
+}
+
+.navigation-menu :active,
+.navigation-menu :focus {
+  color: var(--button-links-color);
+}
+
+.button :hover,
+.button :active,
+.button :focus {
+  background-color: var(--button-links-color);
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.625em;
+  letter-spacing: 0.48px;
+  cursor: pointer;
+}
+
+.button {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-details :hover,
+.contact-details :focus {
+  color: var(--button-links-color);
+  text-decoration: none;
+}
+
+.contact-details a {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 3.75em;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.request-button {
+  background-color: var(--button-links-color);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875em;
+  letter-spacing: 0.96px;
+}
+
+.text-board-section h3 {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.text-board-section {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.42px;
+}
+
+h2 {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.team-member-list h3 {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.team-member-list {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.photo-section-board h3 {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2.25em;
+  letter-spacing: 1.08px;
+}
+
+.photo-section-board {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875em;
+  letter-spacing: 0.48px;
+}

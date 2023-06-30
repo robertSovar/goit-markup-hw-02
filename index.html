@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <h1>
-        <a href="index.html">WebStudio</a>
-      </h1>
+      <p class="webstudio-icon">
+        <a href="index.html">Web<span class="studio-text">Studio</span></a>
+      </p>
 
       <nav>
-        <ul>
-          <li>Studio</li>
+        <ul class="navigation-menu">
+          <li>
+            <a
+              href="index.html"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Studio</a
+            >
+          </li>
           <li>
             <a
               href="portofolio.html"
@@ -22,39 +38,51 @@
               >Portfolio</a
             >
           </li>
-          <li>Contacts</li>
+          <li>
+            <a
+              href="contacts.html"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Contacts</a
+            >
+          </li>
         </ul>
       </nav>
-
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150"> +1 212 772 4150 </a>
+      <div class="contact-details">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+12127724150"> +1 212 772 4150 </a>
+      </div>
     </header>
 
     <main>
-      <h2>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
+      <section class="hero-section">
+        <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+      <div>
+        <button class="request-button">Request our service</button>
+      </div>
+      </section>
+      
 
-      <button>Request our service</button>
-
-      <section>
-        <h2>ATTENTION TO DETAILS</h2>
+      <section class="text-board-section">
+        <h3>ATTENTION TO DETAILS</h3>
         <div>
           We go into all the details and processes of your business to develop a
           customized solution.
         </div>
 
-        <h2>PUNCTUALITY</h2>
+        <h3>PUNCTUALITY</h3>
         <div>
           With us, you can feel safe and secure. An important principle of the
           company: respect your time and deadlines.
         </div>
 
-        <h2>PLANNING</h2>
+        <h3>PLANNING</h3>
         <div>
           You will be able to observe and participate in every phase of solution
           development and implementation.
         </div>
 
-        <h2>MODERN TECHNOLOGIES</h2>
+        <h3>MODERN TECHNOLOGIES</h3>
         <div>
           We use innovative tools to solve assigned tasks. It's time to simplify
           work processes.
@@ -84,7 +112,7 @@
       <section>
         <h2>Our Team</h2>
 
-        <ul>
+        <ul class="team-member-list">
           <li>
             <img
               src="images/christopherWalkerPhoto.jpg"
@@ -133,14 +161,15 @@
     </main>
 
     <footer>
-      <p>
-        <a href="index.html">WebStudio</a>
+      <p class="webstudio-icon">
+        <a href="index.html">Web<span class="studio-text">Studio</span></a>
       </p>
 
       <address>695 Park Ave, NY 10065, USA</address>
-
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150"> +1 212 772 4150 </a>
+      <div class="contact-details">
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a href="tel:+12127724150"> +1 212 772 4150 </a>
+      </div>
     </footer>
   </body>
 </html>
