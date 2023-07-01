@@ -91,7 +91,7 @@ h1 {
   background-color: #2f303a;
 }
 
-.request-button {
+.request-button , .request-button :focus , .request-button :hover{
   background-color: var(--button-links-color);
   color: #fff;
   text-align: center;
@@ -99,7 +99,10 @@ h1 {
   font-weight: 700;
   line-height: 1.875em;
   letter-spacing: 0.96px;
+  cursor: pointer;
 }
+
+
 
 .text-board-section h3 {
   color: #212121;
