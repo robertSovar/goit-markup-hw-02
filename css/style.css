@@ -43,7 +43,8 @@ ul a:active {
 }
 
 .navigation-menu :active,
-.navigation-menu :focus {
+.navigation-menu :focus,
+.navigation-menu :hover {
   color: var(--button-links-color);
 }
 
@@ -91,7 +92,9 @@ h1 {
   background-color: #2f303a;
 }
 
-.request-button , .request-button :focus , .request-button :hover{
+.request-button,
+.request-button :focus,
+.request-button :hover {
   background-color: var(--button-links-color);
   color: #fff;
   text-align: center;
@@ -101,8 +104,6 @@ h1 {
   letter-spacing: 0.96px;
   cursor: pointer;
 }
-
-
 
 .text-board-section h3 {
   color: #212121;
