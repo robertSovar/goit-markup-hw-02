@@ -2,11 +2,16 @@
   --webstudio-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
   --button-links-color: #2196f3;
+  --hover-buttons-color: #fff;
+  --header-text-color: #212121;
+  --normal-text-color: #757575;
 }
 
-body {
+body,
+body :visited {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--header-text-color);
+  font-weight: 400;
 }
 
 ul {
@@ -33,26 +38,34 @@ ul a:active {
 }
 
 .studio-text {
-  color: black;
+  color: #000000;
   font-size: 26px;
-  font-family: "Raleway", sans-serif;
-
+  font-family: var(--webstudio-font-family);
   font-weight: 700;
   letter-spacing: 0.78px;
-  line-break: normal;
 }
 
 .navigation-menu :active,
 .navigation-menu :focus,
-.navigation-menu :hover {
+.navigation-menu :hover,
+.contact-details :hover,
+.contact-details :focus {
   color: var(--button-links-color);
+}
+
+.contact-details a {
+  color: var(--normal-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  text-decoration: none;
 }
 
 .button :hover,
 .button :active,
 .button :focus {
   background-color: var(--button-links-color);
-  color: #fff;
+  color: var(--hover-buttons-color);
   font-weight: 500;
   line-height: 1.625em;
   letter-spacing: 0.48px;
@@ -60,23 +73,8 @@ ul a:active {
 }
 
 .button {
-  color: #757575;
+  color: var(--normal-text-color);
   font-size: 16px;
-  font-weight: 400;
-}
-
-.contact-details :hover,
-.contact-details :focus {
-  color: var(--button-links-color);
-  text-decoration: none;
-}
-
-.contact-details a {
-  color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  text-decoration: none;
 }
 
 h1 {
@@ -96,7 +94,7 @@ h1 {
 .request-button :focus,
 .request-button :hover {
   background-color: var(--button-links-color);
-  color: #fff;
+  color: var(--hover-buttons-color);
   text-align: center;
   font-size: 16px;
   font-weight: 700;
@@ -106,7 +104,7 @@ h1 {
 }
 
 .text-board-section h3 {
-  color: #212121;
+  color: var(--header-text-color);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -114,15 +112,14 @@ h1 {
 }
 
 .text-board-section {
-  color: #757575;
+  color: var(--normal-text-color);
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.42px;
 }
 
 h2 {
-  color: #212121;
+  color: var(--header-text-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -130,21 +127,20 @@ h2 {
 }
 
 .team-member-list h3 {
-  color: #212121;
+  color: var(--header-text-color);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
 }
 
 .team-member-list {
-  color: #757575;
+  color: var(--normal-text-color);
   font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0.48px;
 }
 
 .photo-section-board h3 {
-  color: #212121;
+  color: var(--header-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2.25em;
@@ -152,9 +148,8 @@ h2 {
 }
 
 .photo-section-board {
-  color: #757575;
+  color: var(--normal-text-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.875em;
   letter-spacing: 0.48px;
 }
